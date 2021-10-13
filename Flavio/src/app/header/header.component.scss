@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #fff;
+
+    img{
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    nav{
+        ul{
+            display: flex;
+            flex-direction: column;
+            flex-flow: column;
+            list-style-type: none;
+            list-style: none;
+            padding: 0;
+
+            li{
+                text-align: center;
+                border: 0.2px solid #F4F4F4;
+                border-radius: 2px;
+                padding: 14px;
+                font-weight: bold;
+                background-color: #eeeeee;
+            }
+        }
+    }
+}
