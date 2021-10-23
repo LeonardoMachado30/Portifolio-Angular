@@ -1,4 +1,4 @@
-header{
+.header{
     display: flex;
     flex-flow: column;
     margin: 0;
@@ -34,3 +34,24 @@ header{
         }
     }
 }
+// .btnResponsive{
+//     display: none;
+//     width: 100px;
+//     height: 100px;
+//     background-color: orange;
+// }
+
+// @media screen and (max-width: 1300px){
+//     .header{
+//         margin-left: -300px;
+//     }
+
+//     .btnResponsive{
+//         display: block;
+//     }
+
+//     .btnResponsive:hover {
+//         margin-left: 300px !important;
+//     }
+    
+// }
