@@ -1,4 +1,4 @@
-.information{
+.info{
     
     &__box{
         margin: 8% 0 0 5%;
@@ -14,12 +14,15 @@
         box-shadow: 20px 20px 20px #e7e5e5;
     }
 
-    &__name{
-        font-size: 32px;
+    &__icon{
+        width: 30px;
+        height: 30px;
+        padding: 10px;
     }
 }
-@media screen and (max-width: 1300px){
-    .information__box{
-        width: 100%;
-    }
-}
+
+// @media screen and (max-width: 1300px){
+//     .information__box{
+//         width: 100%;
+//     }
+// }
