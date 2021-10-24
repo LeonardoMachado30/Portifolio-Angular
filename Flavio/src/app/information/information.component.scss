@@ -1,12 +1,11 @@
 .info{
     
     &__box{
-        margin: 8% 0 0 5%;
         display: flex;
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        width: 90%;
+        width: 180vh;
         height: 600px;
         background-color: white;
         border-radius: 20px;
@@ -15,14 +14,8 @@
     }
 
     &__icon{
-        width: 30px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
         padding: 10px;
     }
 }
-
-// @media screen and (max-width: 1300px){
-//     .information__box{
-//         width: 100%;
-//     }
-// }
